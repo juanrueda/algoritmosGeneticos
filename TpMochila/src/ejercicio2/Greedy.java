@@ -77,50 +77,5 @@ public class Greedy {
 		System.out.println("Se introdujo el objeto "+mochila[i][2]);
 		System.out.println("Contenido final "+contVol+ " cm3 con un valor de $"+contValor);
 	}
-		
-		
-		
-		
-		
-		
-		
-		//****************************************************//
-		/*int contVol=0;
-		int cont=0;
-		int contValor=0;
-		
-		
-		for(int i=0; i<10; i++){
-			if(contVol < 4200){
-				contVol = contVol + listaOrdenada[i][0];
-				contValor = contValor + listaOrdenada[i][1];
-			} else break;
-			
-		}
-		
-		
-		
-		do{
-			contVol=contVol+listaOrdenada[cont][0];
-			contValor=contValor+listaOrdenada[cont][1];
-			if(contVol > 4200){
-				contVol = contVol - listaOrdenada[cont][0];
-				contValor = contValor - listaOrdenada[cont][1];
-			}
-			System.out.println("\nSe introdujo el objeto "+(listaOrdenada[cont][2]));
-			System.out.println("Contenido final "+contVol+" con un valor de "+contValor);
-			cont++;
-		}while(contVol < 4200 && cont<10);
-		
-		
-
-		for(int i =0; i<10;i++){
-			System.out.println(" relacion\n");
-			System.out.println(relacionOrdenada[i]);
-			for(int k=0;k<3;k++){
-				System.out.println(listaOrdenada[i][k]);
-			}
-		}
-	} */
 
 }
